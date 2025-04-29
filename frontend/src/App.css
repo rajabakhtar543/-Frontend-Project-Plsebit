@@ -1,0 +1,29 @@
+
+
+cursor{
+  color: #29b96c;
+}
+
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: limegreen;  /* Track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;  /* Thumb color */
+  border-radius: 2px;  /* Rounded corners for the thumb */
+  border: 1px solid white;  /* White border around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #29b96c;  /* Color change on hover */
+}
+
+::-webkit-scrollbar-button {
+  border: 0.5px solid black;  /* Styling for the buttons on scrollbar */
+}
